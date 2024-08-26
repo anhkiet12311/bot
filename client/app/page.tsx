@@ -23,7 +23,7 @@ export default function Home() {
   }, [])
 
   return (
-    <main className="p-4">
+    <main className="flex items-center justify-center h-screen p-4">
       {
         UserData ?
         (
@@ -40,7 +40,7 @@ export default function Home() {
           </>
         ):
         (
-          <div>Loading...</div>
+          <div className="text-2xl font-bold">Loading...</div>
         )
       }
     </main>
