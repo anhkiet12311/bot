@@ -28,14 +28,17 @@ export default function Home() {
         UserData ?
         (
           <>
-            <h1 className="text-2xl font-bold mb-4">User Data </h1>
+            <h1 className="text-2xl font-bold mb-4 ">User Data </h1>
             <ul>
-              <li className="font-bold-green-500">ID: {UserData.id}</li>
-              <li className="font-bold-red-500">First Name: {UserData.first_name}</li>
-              <li className="font-bold-purple-500">Last Nam: {UserData.last_name}</li>
-              <li className="font-bold-orange-500">Username: {UserData.username}</li>
-              <li className="font-bold-teal-500">Language code: {UserData.languge_code}</li>
-              <li className="font-bold-yellow-500">is Premium: {UserData.is_premium ? 'Yes' : 'No'}</li>
+              <li className="font-bold text-green-500">ID: {UserData.id}</li>
+              <li className="font-bold text-red-500">First Name: {UserData.first_name}</li>
+              <li className="font-bold text-purple-500">Last Nam: {UserData.last_name}</li>
+              <li className="font-bold text-red-500">First Name: {UserData.first_name}</li>
+              <li className="font-bold text-orange-500">Username: {UserData.username}</li>
+              <li className="font-bold text-red-500">First Name: {UserData.first_name}</li>
+              <li className="font-bold text-teal-500">Language code: {UserData.languge_code}</li>
+              <li className="font-bold text-red-500">First Name: {UserData.first_name}</li>
+              <li className="font-bold text-yellow-500">is Premium: {UserData.is_premium ? 'Yes' : 'No'}</li>
             </ul>
           </>
         ):
