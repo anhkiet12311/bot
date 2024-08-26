@@ -30,12 +30,12 @@ export default function Home() {
           <>
             <h1 className="text-2xl font-bold mb-4">User Data </h1>
             <ul>
-              <li>ID: {UserData.id}</li>
-              <li>First Name: {UserData.first_name}</li>
-              <li>Last Nam: {UserData.last_name}</li>
-              <li>Username: {UserData.username}</li>
-              <li>Language code: {UserData.languge_code}</li>
-              <li>is Premium: {UserData.is_premium ? 'Yes' : 'No'}</li>
+              <li className="font-bold-green-500">ID: {UserData.id}</li>
+              <li className="font-bold-red-500">First Name: {UserData.first_name}</li>
+              <li className="font-bold-purple-500">Last Nam: {UserData.last_name}</li>
+              <li className="font-bold-orange-500">Username: {UserData.username}</li>
+              <li className="font-bold-teal-500">Language code: {UserData.languge_code}</li>
+              <li className="font-bold-yellow-500">is Premium: {UserData.is_premium ? 'Yes' : 'No'}</li>
             </ul>
           </>
         ):
